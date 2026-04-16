@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stack Visualization Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Stack Operations</h2>
+
+    <div class="controls">
+        <input type="number" id="value" placeholder="Enter value">
+        <div class="buttons">
+            <button onclick="push()">Push</button>
+            <button onclick="pop()">Pop</button>
+            <button onclick="peek()">Peek</button>
+        </div>
+    </div>
+
+    <!-- This is the container we centered -->
+    <div class="container">
+        <div class="section">
+            <h3>Stack</h3>
+            <div id="stack" class="stack"></div>
+        </div>
+    </div>
+
+    <div id="message">Welcome! Enter a value to begin.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
